@@ -3,7 +3,9 @@ import { Container, Grid, Segment } from "semantic-ui-react";
 
 const FooterMain = () => {
   return (
-    <Segment vertical>
+    <Segment vertical style={{
+      padding: "0",
+    }}>
       <Container textAlign="center">
         <Grid columns={3} divided>
           <Grid.Row>

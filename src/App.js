@@ -6,7 +6,7 @@ import FooterMain from "./global-components/FooterMain";
 const App = () => (
   <div>
     <HeaderMain />
-    <Container style={{ minHeight: "30rem" }}>
+    <Container style={{ minHeight: "35rem" }}>
       <Header as="h1">Content</Header>
     </Container>
     <Divider />
