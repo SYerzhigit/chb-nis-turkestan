@@ -103,7 +103,7 @@ const HeaderMain = () => (
             <Dropdown.Item>List Item</Dropdown.Item>
             <Dropdown.Item>List Item</Dropdown.Item>
             <Dropdown.Item>
-              <i className="dropdown icon" />
+              <i className="angle down icon" />
               <span className="text">Submenu</span>
               <Dropdown.Menu>
                 <Dropdown.Item>List Item</Dropdown.Item>

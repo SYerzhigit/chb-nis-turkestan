@@ -5,6 +5,7 @@ import FooterMain from "./global-components/FooterMain";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ItSupport from "./pages/it-support";
+import AdminPage from "./pages/AdminPage";
 
 const App = () => (
   <div>
@@ -14,6 +15,7 @@ const App = () => (
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/itsupport" component={ItSupport} />
+          <Route path="/adminpage" component={AdminPage} />
         </Switch>
       </Container>
       <Divider />
