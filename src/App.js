@@ -11,7 +11,7 @@ const App = () => (
   <div>
     <Router>
       <HeaderMain />
-      <Container style={{ minHeight: "100vh", padding: "1rem" }}>
+      <Container style={{ minHeight: "10rem", padding: "1rem" }}>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/itsupport" component={ItSupport} />
