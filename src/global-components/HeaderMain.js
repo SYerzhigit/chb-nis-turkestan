@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Container, Dropdown, Menu } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 const HeaderMain = () => (
   <>
@@ -23,7 +24,9 @@ const HeaderMain = () => (
         {/* О нас */}
         <Dropdown item simple text="О нас">
           <Dropdown.Menu>
-            <Dropdown.Item>История школы</Dropdown.Item>
+            <Dropdown.Item>
+              <Link to="/">История школы</Link>
+            </Dropdown.Item>
             <Dropdown.Item>Наша команда</Dropdown.Item>
             <Dropdown.Item>Правила</Dropdown.Item>
             <Dropdown.Item>Отчеты</Dropdown.Item>
@@ -127,7 +130,9 @@ const HeaderMain = () => (
           </Dropdown.Menu>
         </Dropdown>
         <Menu.Item name="editorials">
-          <Button color="teal">IT көмек</Button>
+          <Link to="/itsupport">
+            <Button color="teal">IT көмек</Button>
+          </Link>
         </Menu.Item>
       </Container>
     </Menu>
